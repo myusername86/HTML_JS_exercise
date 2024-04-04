@@ -1,0 +1,33 @@
+<!--create four div element and insert them in html page-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adding elements in HTML page</title>
+</head>
+<body>
+    <h1>Adding elements using js</h1>
+    <script>
+
+        var a=document.createElement("div");
+
+        var b=document.createElement("h1");
+        b.textContent="my first heading";
+        a.appendChild(b);
+        
+        var c=document.createElement("p");
+        c.textContent="my paragraph";
+        a.appendChild(c);
+        var d=document.createElement("img");
+        d.src="cat.jpeg";
+        a.appendChild(d);
+        var e=document.createElement("h2");
+        e.textContent="my second heading";
+
+        document.body.appendChild(a);
+
+    </script>
+    
+</body>
+</html>

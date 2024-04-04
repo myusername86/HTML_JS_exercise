@@ -1,0 +1,45 @@
+<!--create a div element containing h1 and p element and add text in it -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adding elements to html</title>
+</head>
+<body>
+    <button type="button" onclick="add_h2()">Add h1</button>
+    <br><br>
+
+    <button type="button" onclick="add_p()">Add paragraph</button>
+    <script>
+        function add_h2()
+        {
+            var a=document.createElement("div");
+        var b=document.createElement("h2");
+        b.textContent="my heading goes here";
+        a.appendChild(b);
+        document.body.appendChild(a);
+        }
+        function add_p()
+
+        {
+            var a=document.createElement("div");
+            var c=document.createElement("p");
+            c.textContent="I am adding paragraph here";
+            a.appendChild(c);
+            document.body.appendChild(a);
+        
+
+        
+
+        }
+
+        
+        
+
+        
+        
+    
+    </script>
+</body>
+</html>
