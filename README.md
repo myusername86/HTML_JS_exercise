@@ -1,6 +1,6 @@
 **Exercise on adding elements via java script**
 
-This repository contains an example of how to add an elements like h1,h2...tags,<p>,<div> ,<img> tags to webpage dynamically using java script.
+This repository contains an example of how to add an elements like h1,h2...tags,p,div ,img tags to webpage dynamically using java script.
 
 **EXAMPLE**
 
